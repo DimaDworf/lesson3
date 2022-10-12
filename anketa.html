@@ -28,9 +28,14 @@
             </fieldset>
             <fieldset>
                 <div>
+                    <label for="day">удобный день</label>
+                    <input name="day" id="day" type="date" min="2022-01-01" max="2022-12-31" value="2022-01-01">>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
                     <label for="time">удобное время</label>
-                    <input name="time:" id="time">
-                    <input name="time">
+                    <input name="time:" id="time" type="time">
                 </div>
             </fieldset>
             <fieldset>
@@ -56,14 +61,13 @@
                         <option value="silvering teeth">Серебрение зубов</option>
                     </select>
                 </div>
-
             </fieldset>
         </fieldset>
+        <div>
+            <button type="submit">отправить</button>
+            <button type="reset">сброс</button>
+        </div>
     </form>
-    <div>
-        <button type="submit">отправить</button>
-        <button type="reset">сброс</button>
-    </div>
 </body>
 
 </html>
