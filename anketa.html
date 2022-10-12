@@ -9,9 +9,61 @@
 </head>
 
 <body>
-    <div><a href="./form1.html">Регистрация</a></div>
-    <div><a href="./form2.html">Вход</a></div>
-    <div><a href="./form3.html">Анкета записи</a></div>
+    <div><a href="./index.html">Главная страница</a></div>
+    <div><a href="./registrat.html">Регистрация</a></div>
+    <div><a href="./auth.html">Авторизация</a></div>
+    <h1>Запись</h1>
+    <form action="https://tests.fomenko.top/echo/index.php" method="post">
+        <fieldset>
+            <fieldset>
+                <div>
+                    <label for="tip">Тип проблемы</label>
+                    <select id="tip" name="tip">
+                        <option value="ache">боль</option>
+                        <option value="brackets">брекеты</option>
+                        <option value="itch">зуд</option>
+                        <option value="caries">кариес</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="time">удобное время</label>
+                    <input name="time:" id="time">
+                    <input name="time">
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
+                    <label for="streat">улица клиники</label>
+                    <select id="streat" name="streat">
+                        <option value="Dovzhenko 3">Довженко 3</option>
+                        <option value="Tairovo">Tаирово</option>
+                        <option value="Pushkinskaya">Пушкинская</option>
+                        <option value="Shevchenko">Шевченко</option>
+                    </select>
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <div>
+                    <select id="teaths" name="teaths">
+                        <option selected="children's dentistry">Детская стоматология</option>
+                        <option value="reception of a children's orthodontist">Прием детского ортодонта</option>
+                        <option value="treatment of milk teeth">Лечение молочных зубов</option>
+                        <option value="filling of milk teeth">Пломбирование молочных зубов</option>
+                        <option value="braces for children">Брекеты для детей</option>
+                        <option value="silvering teeth">Серебрение зубов</option>
+                    </select>
+                </div>
+
+            </fieldset>
+        </fieldset>
+    </form>
+    <div>
+        <button type="submit">отправить</button>
+        <button type="reset">сброс</button>
+    </div>
 </body>
 
 </html>
